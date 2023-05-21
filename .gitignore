@@ -1,0 +1,7 @@
+*.err
+*.out
+venv
+.idea
+__pycache__/
+*.pyc
+*.pyo
