@@ -6,7 +6,7 @@ easy-to-read format.
 ## Installation
 
 ```commandline
-pip install XXX
+pip install json-log-viewer
 ```
 
 ## Usage
