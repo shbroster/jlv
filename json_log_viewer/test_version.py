@@ -1,7 +1,7 @@
 from pathlib import Path
 from tomllib import load
 
-from jlv.__main__ import VERSION
+from json_log_viewer.__main__ import VERSION
 
 
 def test_correct_version():

@@ -1,7 +1,7 @@
 from textual.app import App, ComposeResult
 from textual.widgets import Tree
 
-from jlv.logs.log import JsonLog
+from json_log_viewer.logs.log import JsonLog
 
 
 class TreeApp(App):
