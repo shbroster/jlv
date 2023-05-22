@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "timestamp": "2023-05-22T12:34:56.789Z",
+  "level": "INFO",
+  "message": "Lambda function started",
+  "functionName": "my-lambda-function",
+  "requestId": "1234567890",
+  "eventId": "abcdefg12345",
+  "userId": "user123",
+  "additionalData": {
+    "key1": "value1",
+    "key2": "value2"
+  }
+}
+{
+  "version": "1.0",
+  "timestamp": "2023-05-22T12:35:01.234Z",
+  "level": "DEBUG",
+  "message": "Processing event",
+  "functionName": "my-lambda-function",
+  "requestId": "0987654321",
+  "eventId": "hijklmn54321",
+  "userId": "user456",
+  "additionalData": {
+    "key1": "value1",
+    "key2": "value2",
+    "key3": "value3"
+  }
+}
+{
+  "version": "1.0",
+  "timestamp": "2023-05-22T12:36:10.987Z",
+  "level": "ERROR",
+  "message": "An error occurred",
+  "functionName": "my-lambda-function",
+  "requestId": "5555555555",
+  "eventId": "xyzabc67890",
+  "userId": "user789",
+  "additionalData": {
+    "errorType": "RuntimeError",
+    "errorMessage": "Division by zero",
+    "stackTrace": "File '/var/task/lambda_function.py', line 10, in lambda_handler\n    result = 1 / 0\nZeroDivisionError: division by zero"
+  }
+}
+{
+  "version": "1.0",
+  "timestamp": "2023-05-22T12:40:15.123Z",
+  "level": "INFO",
+  "message": "Lambda function initialized",
+  "functionName": "my-lambda-function",
+  "requestId": "7777777777",
+  "eventId": "pqrstuvw98765",
+  "userId": "user987",
+  "additionalData": {
+    "key1": "value1",
+    "key2": "value2"
+  }
+}
+{
+  "version": "1.0",
+  "timestamp": "2023-05-22T12:41:20.456Z",
+  "level": "WARN",
+  "message": "Invalid input data",
+  "functionName": "my-lambda-function",
+  "requestId": "4444444444",
+  "eventId": "lmnopq54321",
+  "userId": "user654",
+  "additionalData": {
+    "inputData": {
+      "field1": "value1",
+      "field2": "value2"
+    },
+    "errorMessage": "Invalid format for field 'field2'"
+  }
+}
+{
+  "version": "1.0",
+  "timestamp": "2023-05-22T12:42:30.789Z",
+  "level": "ERROR",
+  "message": "Data processing failed",
+  "functionName": "my-lambda-function",
+  "requestId": "9999999999",
+  "eventId": "abcdefgh12345",
+  "userId": "user321",
+  "additionalData": {
+    "errorType": "DataProcessingError",
+    "errorMessage": "Failed to process data",
+    "stackTrace": "File '/var/task/lambda_function.py', line 42, in process_data\n    raise DataProcessingError('Failed to process data')\nDataProcessingError: Failed to process data"
+  }
+}

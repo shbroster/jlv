@@ -3,6 +3,8 @@
 A simple tool to extra JSON logs from files, merge them, and display them in an
 easy-to-read format.
 
+![](demo/demo.gif)
+
 ## Installation
 
 ```commandline
