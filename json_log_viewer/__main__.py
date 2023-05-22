@@ -16,7 +16,7 @@ from json_log_viewer.extractor.extract import extract_from_file
 from json_log_viewer.logs.log import JsonLog
 from json_log_viewer.logs.tree import TreeApp
 
-VERSION = "0.1.0"
+VERSION = "0.1.2"
 
 
 def main(files: list[str]):

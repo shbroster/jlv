@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "json_log_viewer"
-version = "0.1.0"
+version = "0.1.2"
 description = ""
 authors = ["Samuel Broster <sam@broster.dev>"]
 readme = "README.md"
@@ -24,4 +24,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-jlv = "jlv.__main__:run"
+jlv = "json_log_viewer.__main__:run"
