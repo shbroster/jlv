@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 
-from jlv.logs.log import JsonLog, LogLevel
+from json_log_viewer.logs.log import JsonLog, LogLevel
 
 
 def test_from_dict():

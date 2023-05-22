@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "jlv"
+name = "json_log_viewer"
 version = "0.1.0"
 description = ""
 authors = ["Samuel Broster <sam@broster.dev>"]

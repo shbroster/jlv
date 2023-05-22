@@ -12,9 +12,9 @@ from pathlib import Path
 
 from docopt import docopt
 
-from jlv.extractor.extract import extract_from_file
-from jlv.logs.log import JsonLog
-from jlv.logs.tree import TreeApp
+from json_log_viewer.extractor.extract import extract_from_file
+from json_log_viewer.logs.log import JsonLog
+from json_log_viewer.logs.tree import TreeApp
 
 VERSION = "0.1.0"
 

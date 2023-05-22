@@ -1,4 +1,4 @@
-from jlv.extractor.extract import extract
+from json_log_viewer.extractor.extract import extract
 
 
 def test_simple_single_line_json():
